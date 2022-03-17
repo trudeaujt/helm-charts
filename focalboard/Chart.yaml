@@ -1,0 +1,28 @@
+annotations:
+  artifacthub.io/changes: |
+    - kind: changed
+      description: Upgraded `common` chart dependency to version `4.3.0`.
+apiVersion: v2
+appVersion: 0.9.0
+dependencies:
+- name: common
+  repository: https://library-charts.k8s-at-home.com
+  version: 4.3.0
+description: Focalboard is an open source, self-hosted alternative to Trello, Notion,
+  and Asana.
+home: https://github.com/k8s-at-home/charts/tree/master/charts/stable/focalboard
+icon: https://github.com/mattermost/focalboard/raw/main/webapp/static/favicon.svg
+keywords:
+- focalboard
+- kanban
+- project management
+kubeVersion: '>=1.16.0-0'
+maintainers:
+- email: dennis.zhang.nrg@gmail.com
+  name: FlipEnergy
+name: focalboard
+sources:
+- https://www.focalboard.com/
+- https://github.com/mattermost/focalboard
+- https://github.com/FlipEnergy/container-images/blob/main/focalboard
+version: 4.2.0
